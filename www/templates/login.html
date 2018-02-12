@@ -1,0 +1,44 @@
+<ion-view view-title="">
+ <ion-content class="padding center" style="background:no-repeat center center url('img/needaservice.jpg') rgba(0,0,0,0.85);">
+
+<div class="text-center"><img src="img/zervice white 2.png" width="5%"/></div>
+<!--  <h3 class="text-center">
+Login to your account
+ </h3> -->
+ <div class="card">
+ <label class="item item-input">
+ <span class="input-label"><i class="icon ion-email"></i> Email</span>
+ <input type="email" ng-model="email">
+ </label>
+ <label class="item item-input">
+ <span class="input-label "><i class="icon ion-locked"></i> Password</span>
+ <input type="password" ng-model="password"
+ng-minlength="8">
+ </label>
+ <label class="item item-input item-select">
+ <div class="input-label">
+<span class="input-label "><i class="icon ion-briefcase"></i> Account Type</span>
+
+ </div>
+ <select ng-model="usertype">
+ <option value="">Account type</option> 	
+ <option value="1">User</option>
+ <option value="2">Service Provider</option>
+ </select>
+ </label>
+</div>
+ <div class="padding">
+ <button 
+class="button button-block button-assertive">Sign In</button>
+ </div>
+ </div>
+  <div class="list text-center color-white">
+Forgot Password? <a class="a-color-white" href="#/zervice/login">Click here</a>
+  </div>
+
+<div class="list text-center color-white">
+Dont Have an Account? <a class="a-color-white" href="#/zervice/login">Register</a>
+  </div>
+
+ </ion-content>
+</ion-view>
